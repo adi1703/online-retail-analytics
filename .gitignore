@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Raw data download (reproduce with data/fetch_data.py — ~45 MB, do not commit)
+data/online_retail_II.zip
+data/online_retail_II.xlsx
+
+# Regenerable build artifact (deterministic from data/clean_data.py)
+data/online_retail.db
+
+# Cleaned sales grain is ~113 MB (1M rows) — too large to commit. Reproduce with
+# clean_data.py; the small returns file + dashboards/extracts/ ARE committed.
+data/online_retail_clean.csv

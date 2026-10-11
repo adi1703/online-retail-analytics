@@ -1,0 +1,8 @@
+# E-Commerce Customer & Revenue Analytics — Python dependencies (fetch + clean + analysis)
+numpy>=2.0
+pandas>=2.2
+matplotlib>=3.8
+openpyxl>=3.1     # read the source .xlsx (two sheets) from UCI Online Retail II
+jupytext>=1.16    # round-trips notebook/analysis.py <-> analysis.ipynb
+# Optional, only to execute the .ipynb interactively:
+# jupyter
